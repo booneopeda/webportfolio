@@ -103,7 +103,7 @@ form label, form input {
 }
 
 iframe {
-	height: 87%;
+	height: 560px;
 	width: 100%;
 	border-radius: 10px;
 }
