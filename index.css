@@ -136,4 +136,14 @@ iframe {
 #facebook {
 	height: 60px;
 	width: 60px;
+} 
+
+/*section {
+	opacity: 0;
+	animation: fadeIn 2s ease-in;
 }
+
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}*/
