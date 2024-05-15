@@ -147,10 +147,10 @@ iframe {
 
 .slide-left {
   position: relative;
-  left: -10000px;
+  left: -100px;
   -webkit-animation: slide-left 0.5s forwards;
-  -webkit-animation-delay: 1s;
-  animation: slide-left 1s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide-left 0.5s forwards;
 }
 
 @-webkit-keyframes slide-left {
@@ -167,20 +167,20 @@ iframe {
 
 .slide-right {
   position: relative;
-  left: 5000px;
+  right: -100px;
   -webkit-animation: slide-right 0.5s forwards;
-  -webkit-animation-delay: 1s;
-  animation: slide-right 1s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide-right 0.5s forwards;
 }
 
 @-webkit-keyframes slide-right {
   100% {
-    left: 0;
+    right: 0;
   }
 }
 
 @keyframes slide-right {
   100% {
-    left: 0;
+    right: 0;
   }
 }
